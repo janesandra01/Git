@@ -3,3 +3,4 @@ def auto():
         for j in rang(1,10):
             if i<=j:
                 print(i*j)
+auto()
