@@ -1,6 +1,6 @@
 def auto():
-    for i in rang (1,10)
-        for j in rang(1,i):
-                print("%dx%d={i*j}"%(i,j,i*j))
-                print()
+    for i in range(1,10):
+        for j in range(1,i+1):
+                print("%dx%d=%-3d"%(i,j,i*j),end='')
+        print()
 auto()
